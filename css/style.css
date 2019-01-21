@@ -1,0 +1,53 @@
+html,body,header, #intro{
+	height: 100%;
+}
+
+#intro{
+	background: url(../img/mainImg/MainPic.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover; /*a property that scales the image while maintaining the aspect ratio so, that the height and width of the image is equal to the width of the block*/
+	background-size: cover; 
+}
+
+/*For that color nav-bar. With out these properties nav-bar hasn't color  */
+.top-nav-collapse{
+	background-color: #1C3D5A;
+}
+
+
+  /*.not - this is pseudo-class which sets the style rule for elements that do not contain the specified selector - .top-nav-collapse
+         and here we set to nav-bar backgroung, so when webpage display less than 768px nav bar will always have color. */
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse) {
+		background: #1C3D5A;
+	}
+}
+
+
+
+/*This is CSS from Bootstrap website for google maps */
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ 
+<i class="fa fa-bomb fa-5x"></i
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
